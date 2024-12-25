@@ -37,8 +37,4 @@ int main() {
     }
     return 0;
 }
-
-	return 0;
-}
-
 // Comment or uncomment the open("problem") and cin >> t lines, they are for file input and test cases, respectively. 
