@@ -7,7 +7,6 @@ void fastio() {
 }
  
 void open(string filename) {
-    fastio();
     freopen((filename + ".in").c_str(), "r", stdin);
     freopen((filename + ".out").c_str(), "w", stdout);
 }
