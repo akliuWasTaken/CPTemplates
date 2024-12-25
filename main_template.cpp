@@ -1,16 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-void fastio() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0);
-}
- 
-void open(string filename) {
-    freopen((filename + ".in").c_str(), "r", stdin);
-    freopen((filename + ".out").c_str(), "w", stdout);
-}
- 
+
 typedef long long ll;
 #define vll vector<ll>
 #define vint vector<int>
@@ -23,6 +13,16 @@ typedef long long ll;
 #define se second
 #define fi first
 #define cont continue
+ 
+void fastio() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+}
+ 
+void open(string filename) {
+    freopen((filename + ".in").c_str(), "r", stdin);
+    freopen((filename + ".out").c_str(), "w", stdout);
+}
 
 ll MOD = 1000000007;
 
